@@ -569,10 +569,11 @@ footer .guitar-picture {
   top: 6023px;
 }
 
-footer h1 {
+footer h1 a {
   background: url(../img/disney_pixar_logo.png) no-repeat;
   width: 530px;
   height: 90px;
+  display: block;
 }
 footer .sns {
   display: flex;
@@ -581,7 +582,8 @@ footer .sns ul {
   display: flex;
   gap: 70px;
 }
-footer .sns ul li {
+footer .sns ul li a {
+  display: block;
   width: 80px;
   height: 80px;
 }
