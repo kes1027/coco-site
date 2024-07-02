@@ -46,6 +46,7 @@ body {
   color: #000;
   line-height: 1.2;
   overflow-x: hidden;
+  background: var(--blue-color);
 }
 
 /* s: 공통 */
@@ -58,10 +59,11 @@ body {
 .section {
   width: 1920px;
   height: 100%;
+  margin: 0 auto;
 }
 
 .section1 {
-  width: 100%;
+  width: 1920px;
   height: 1012px;
   background: url(../img/coco_visual.png) 0 0 no-repeat;
   position: relative;
@@ -95,7 +97,7 @@ body {
 
 /* s: video */
 .section2 {
-  width: 100%;
+  width: 1920px;
   height: 1003px;
   background: var(--orange-color);
   display: flex;
@@ -151,7 +153,7 @@ body {
 
 /* s: synopsis */
 .section3 {
-  width: 100%;
+  width: 1920px;
   height: 1096px;
   background: var(--white-gray-color);
 }
@@ -204,7 +206,7 @@ body {
 /* s: character */
 .section4 {
   height: 987px;
-  width: 100%;
+  width: 1920px;
   background: var(--blue-color);
   position: relative;
 }
@@ -354,7 +356,7 @@ body {
 /* s: stillcut */
 .section5 {
   height: 1558px;
-  width: 100%;
+  width: 1920px;
   background: var(--white-gray-color);
 }
 
@@ -448,7 +450,7 @@ body {
 
 /* s: award */
 .section6 {
-  width: 100%;
+  width: 1920px;
   height: 875px;
   background: var(--brown-color);
   padding-top: 150px;
@@ -509,7 +511,7 @@ body {
 
 /* s: revuew */
 .section7 {
-  width: 100%;
+  width: 1920px;
   height: 1358px;
   background: url(../img/award\ page.png) no-repeat 50%;
   padding-top: 150px;
@@ -553,7 +555,7 @@ body {
 /* s: footer */
 footer {
   height: 464px;
-  width: 100%;
+  width: 1920px;
   background: var(--blue-color);
   text-align: center;
   display: flex;
@@ -561,6 +563,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 60px;
+  margin: 0 auto;
 }
 
 footer .guitar-picture {
